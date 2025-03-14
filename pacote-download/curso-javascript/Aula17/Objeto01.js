@@ -10,7 +10,7 @@ let amigo = {
 };
 amigo.engordar(5);
 console.log(`O ${amigo.nome} está pesando ${amigo.peso}`);
-//console.log(amigo.nome); | qual o nome do amigo?
-//console.log(amigo.idade); | qual a idade do amigo?
-//console.log(amigo.peso); | qual o peso do amigo?
-//console.log(amigo.sexo); | qual o sexo do amigo?
+/*
+  console.log(amigo.nome);  | qual o nome do amigo?
+  console.log(amigo.idade); | qual a idade do amigo?
+*/

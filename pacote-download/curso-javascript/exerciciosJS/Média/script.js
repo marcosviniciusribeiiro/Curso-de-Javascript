@@ -1,6 +1,6 @@
 function Calcular() {
   let nome = document.getElementById("nome");
-  let nomeValor = nome.value.trim(); // Remove espaços extras
+  let nomeValor = nome.value.trim(); 
   let res = document.getElementById("res");
   // Verificação do nome
   if (nomeValor.length === 0) {

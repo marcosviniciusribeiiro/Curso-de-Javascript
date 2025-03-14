@@ -23,18 +23,14 @@
     <p>Já me livrei da maldição do olá mundo!</p>
     <!--comentario no HTML-->
     <script>
-      /*
-      var n1 = window.prompt("Digite um Número:"); //O prompt retornará uma var string
-      var n2 = window.prompt("Digite outro Número:"); //O prompt retornará uma var string
-      var soma = n1 + n2;
-      alert("O Resultado da Soma é " + soma); //Concatenação (+)
-      (+) pode servir para concatenação quando (String + String)
-      (+) pode servir para adição quando (Number + Number)*/
+      //Para realizar a soma utilizando o valor informado através do window.prompt() será necessário converter o valor, de string para número, utilizando o Number.parseInt(n) || Number.parseFloat(n) || Number(n)
+      var num1 = Number(window.prompt("Digite um Número"));
+      var num2 = Number(window.prompt("Digite outro Número"));
 
-      //Para realizar a soma utilizando o comando window.prompt("") é necessário converter o num utilizando o Number.parseInt(n) || Number.parseFloat(n) || Number(n)
-      var num1 = Number(window.prompt("Digite um Número")); //O prompt retornará uma var number
-      var num2 = Number(window.prompt("Digite outro Número")); //O prompt retornará uma var number
+      //O prompt retornará um valor do tipo number
+
       var soma = num1 + num2;
+
       alert(`A Soma entre ${num1} e ${num2} é igual à ${soma}`);
     </script>
   </body>

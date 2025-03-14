@@ -5,7 +5,6 @@ function Tabuada() {
   var tab = document.getElementById("selTab");
   tab.innerHTML = ""; //limpa o select antes de calcular a próxima tabuada
 
-  //Para poder gerar tabuadas eu terei que utilizar uma estrutura If & Else
   if (num.value.length == 0 || cont.value.length == 0) {
     document.body.style.background = "red";
   } else if (num.value.length != 0 && cont.value.length != 0) {

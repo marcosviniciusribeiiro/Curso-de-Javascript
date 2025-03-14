@@ -18,18 +18,15 @@ function fatorar() {
 
   function calcularPasso() {
     if (cont >= 1) {
-      // Enquanto o contador for maior ou igual a 1...
-      resultado *= cont; // Multiplica o resultado pelo número atual do contador
-
-      res.innerHTML += `<strong>${cont}</strong> `; // Exibe o número atual na tela
+      resultado *= cont; 
+      res.innerHTML += `<strong>${cont}</strong> `; 
 
       if (cont > 1) {
-        res.innerHTML += "× "; // Se não for o último número, adiciona o símbolo de multiplicação
+        res.innerHTML += "× "; 
       } else {
         res.innerHTML += ` = <strong>${resultado}</strong>`; // Último número: exibe o resultado final
       }
-
-      cont--; // Diminui o contador (vai de num → 1)
+      cont--; 
 
       setTimeout(calcularPasso, 500); // Aguarda 500ms antes de chamar a função novamente
     }

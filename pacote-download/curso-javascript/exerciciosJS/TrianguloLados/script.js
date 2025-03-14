@@ -23,16 +23,3 @@ function Calcular() {
     document.body.style.backgroundColor = "rgb(255, 42, 77)";
   }
 }
-
-/*
-
-            if (lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1) {
-                } else if (lado1 === lado2 || lado1 === lado3 || lado2 === lado3) {
-                    resultado.textContent = "Forma um triângulo isósceles.";
-                } else {
-                    resultado.textContent = "Forma um triângulo escaleno.";
-                }
-            } else {
-            }
-        }
-*/

@@ -30,26 +30,25 @@ function Adicionar() {
   }
 }
 function Finalizar() {
-  //function para o botão Finalizar
   if (valores.length == 0) {
     alert("Nenhum Número foi Analizado, Adicione algum Número!");
   } else {
     let total = valores.length; //qual é o valor total do vetor?
 
-    res.innerHTML = ""; // res inicialmente vazio
+    res.innerHTML = ""; 
     if (total === 1) {
       res.innerHTML += `<p> Foi Cadastrado somente ${total} Número</p>`;
     } else {
       res.innerHTML += `<p> Ao todo, Foram Cadastrados ${total} Números</p>`;
     }
-    let maior = valores[0]; //qual será o maior numero do vetor?
-    let menor = valores[0]; //qual será o menor numero do vetor?
-    let soma = 0; //qual será a soma de todos os numero desse vetor?
-    let media = 0; //qual será o media dos numero desse vetor?
-    //valores[0] será um valor inicial
+    let maior = valores[0]; 
+    let menor = valores[0]; 
+
+    let soma = 0; 
+    let media = 0; 
     media.toFixed(2);
+
     for (pos in valores) {
-      //buscar todos os valores dentro de valores
       if (valores[pos] > maior) {
         maior = valores[pos];
       }
@@ -63,8 +62,5 @@ function Finalizar() {
     res.innerHTML += `<p>o Maior Valor cadastrado foi o ${maior}, e o Menor Valor cadastrado foi o ${menor}.</p>`;
     res.innerHTML += `<p>A média dos ${total} valores cadastrados foi ${media}</p>`;
     res.innerHTML += `<p>A soma de todos os valores cadastrados é igual a ${soma}</p>`;
-    //    let max = max(valores);
-    //let min = min(valores);
-    //total, maior, menor, média
   }
 }
