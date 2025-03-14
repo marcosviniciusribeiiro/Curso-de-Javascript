@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>3° programa</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Marcos" />
+    <style>
+      body {
+        background-color: rgb(105, 105, 173);
+        color: white;
+        font: normal 20px arial;
+        text-align: center; /*comentario no CSS*/
+        margin: 100px;
+      }
+      h1 {
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição do olá mundo!</p>
+    <!--comentario no HTML-->
+    <script>
+      /*
+      var n1 = window.prompt("Digite um Número:"); //O prompt retornará uma var string
+      var n2 = window.prompt("Digite outro Número:"); //O prompt retornará uma var string
+      var soma = n1 + n2;
+      alert("O Resultado da Soma é " + soma); //Concatenação (+)
+      (+) pode servir para concatenação quando (String + String)
+      (+) pode servir para adição quando (Number + Number)*/
+
+      //Para realizar a soma utilizando o comando window.prompt("") é necessário converter o num utilizando o Number.parseInt(n) || Number.parseFloat(n) || Number(n)
+      var num1 = Number(window.prompt("Digite um Número")); //O prompt retornará uma var number
+      var num2 = Number(window.prompt("Digite outro Número")); //O prompt retornará uma var number
+      var soma = num1 + num2;
+      alert(`A Soma entre ${num1} e ${num2} é igual à ${soma}`);
+    </script>
+  </body>
+</html>

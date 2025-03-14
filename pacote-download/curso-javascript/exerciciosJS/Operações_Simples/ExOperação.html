@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operações aritméticas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Operações Aritméticas</h1>
+    <p>
+      Número 1 <input type="number" name="txtn1" id="txtn1" class="texto" /> +
+    </p>
+    <p>
+      Número 2 <input type="number" name="txtn2" id="txtn2" class="texto" />
+    </p>
+    <p>
+      <input type="button" value="Somar" class="operadores" onclick="Somar()" />
+      <input
+        type="button"
+        value="Subtrair"
+        class="operadores"
+        onclick="Subtrair()"
+      />
+      <input
+        type="button"
+        value="Multiplicar"
+        class="operadores"
+        onclick="Multiplicar()"
+      />
+      <input
+        type="button"
+        value="Dividir"
+        class="operadores"
+        onclick="Dividir()"
+      />
+    </p>
+    <div id="res">Resultado:</div>
+    <script src="script.js"></script>
+  </body>
+</html>

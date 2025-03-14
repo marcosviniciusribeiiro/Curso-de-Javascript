@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Ex3: Par</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Marcos Vinicius" />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Numeros Pares</h1>
+    </header>
+    <section>
+      <div>
+        <p>
+          Pares de 1 a:
+          <input
+            type="number"
+            name="num"
+            id="txtnum"
+            min="2"
+            placeholder="digite o número aqui"
+          />
+        </p>
+        <p>
+          <input type="button" value="Calcular" onclick="contar()" />
+        </p>
+      </div>
+
+      <div id="res"></div>
+    </section>
+    <footer>
+      <p>&copy;Marcos</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

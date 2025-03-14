@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  font: normal 18pt arial;
+  color: white;
+  background-color: black;
+  transition: background-color 1000ms ease-in-out;
+}
+header {
+  margin: 80px;
+}
+input {
+  width: 100px;
+  padding: 10px;
+  margin: 8px;
+  font: normal 12pt arial;
+}

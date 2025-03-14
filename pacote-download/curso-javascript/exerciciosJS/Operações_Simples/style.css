@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(89, 89, 250);
+  color: white;
+  font: normal 18pt arial;
+}
+.texto {
+  text-align: center;
+  font: normal 16pt arial;
+  width: 220px;
+}
+.operadores {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font: normal 15pt arial;
+}
+#res {
+  background-color: blue;
+  color: white;
+  width: 450px;
+  height: 80px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 4px;
+  border: 2px inset rgb(18, 18, 247);
+}

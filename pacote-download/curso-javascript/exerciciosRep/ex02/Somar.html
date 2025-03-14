@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Ex2: Soma</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Marcos Vinicius" />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Soma</h1>
+    </header>
+    <section>
+      <div>
+        <p>
+          Número:
+          <input
+            type="number"
+            name="num"
+            id="txtnum"
+            placeholder="Digite aqui"
+            min="1"
+          />
+        </p>
+        <input
+          type="button"
+          value="Somar"
+          name="btsoma"
+          id="butão"
+          onclick="soma()"
+        />
+      </div>
+      <div>
+        <h4>Resultado:</h4>
+        <p id="res"></p>
+      </div>
+    </section>
+    <footer>
+      <p>&copy;Marcos</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

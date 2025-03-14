@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calcule o seu IMC!</h1>
+    </header>
+    <section>
+      <div>
+        <p>Peso: <input type="number" min="30" name="peso" id="peso" /></p>
+        <p>Altura: <input type="number" min="1" name="alt" id="alt" /></p>
+        <input
+          type="button"
+          value="Calcular IMC"
+          id="botão"
+          onclick="Calcular()"
+        />
+      </div>
+      <div id="res"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!--2.Criar um formulario em HTML que receba peso e altura e exiba o IMC.-->

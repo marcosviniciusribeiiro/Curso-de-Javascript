@@ -1,0 +1,29 @@
+header {
+  margin-top: 50px;
+}
+body {
+  text-align: center;
+  background-color: black;
+  font: normal 15pt arial;
+  transition: background-color 500ms ease-in-out;
+}
+section {
+  padding: 25px;
+  width: 500px;
+  color: black;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+}
+#botão {
+  font-size: 15px;
+  padding: 5px;
+}
+footer {
+  font-style: italic;
+}
+#res {
+  margin-top: 20px;
+  line-height: 50px;
+}

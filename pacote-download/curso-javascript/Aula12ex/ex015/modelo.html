@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Verificar Idade</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Marcos Vinícius" />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Verificar Idade</h1>
+    </header>
+    <section>
+      <div id="form">
+        <p>
+          Ano de Nascimento: <input type="number" name="txtAno" id="txtAno" />
+        </p>
+        <p>
+          Sexo:
+          <input type="radio" name="radsex" id="masc" checked />
+          <label for="masc">Masculino</label>
+          <input type="radio" name="radsex" id="fem" />
+          <label for="fem">Feminino</label>
+        </p>
+        <p>
+          <input
+            type="button"
+            value="verificar idade"
+            onclick="verificar()"
+            id="verificarButão"
+          />
+        </p>
+      </div>
+      <div id="res">Prencha os seus Dados Corretamente...</div>
+    </section>
+    <footer>
+      <p>&copy;MarcosVRG</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

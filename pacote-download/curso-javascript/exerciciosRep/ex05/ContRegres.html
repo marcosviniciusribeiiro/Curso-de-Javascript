@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Cont. Regressiva</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Marcos Vinicius" />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contagem Regressiva Interativa</h1>
+    </header>
+    <section>
+      <div>
+        <p>
+          Informe um número para começarmos a contar:
+          <input
+            type="number"
+            name="num"
+            id="txtnum"
+            placeholder="digite aqui"
+          />
+          <input
+            type="button"
+            value="Contar"
+            name="butão"
+            id="btcontar"
+            onclick="Contar()"
+          />
+        </p>
+      </div>
+      <div id="res"></div>
+    </section>
+    <footer>
+      <p>&copy;Marcos</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- Contagem Regressiva Interativa
+ Descrição: Crie uma página onde o usuário informa um número e o site exibe uma contagem regressiva até zero.
+  Conceitos: prompt, for, innerHTML.-->

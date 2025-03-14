@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Somar</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Somando...</h1>
+    </header>
+    <section>
+      <div>
+        <p>Num1: <input type="number" min="1" name="num1" id="n1" /></p>
+        <p>Num2:<input type="number" min="1" name="num2" id="n2" /></p>
+        <p></p>
+        <input
+          type="button"
+          name="botão"
+          id="botão"
+          value="somar"
+          onclick="somar()"
+        />
+      </div>
+      <div id="res"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(11, 167, 240);
+  color: white;
+  font: normal 15pt arial;
+  text-align: center;
+}
+section {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  width: 500px;
+  margin: auto;
+  padding: 30px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+  font: 17pt arial normal;
+}
+input {
+  font-size: 14pt;
+  width: 150px;
+  text-align: center;
+}
+#butão {
+  font-size: 15pt;
+  width: 100px;
+  padding: 8px;
+}
+footer {
+  font-style: italic;
+}
+header:hover,
+p:hover,
+footer:hover {
+  transform: scale(1.1);
+  transition: 2s;
+  color: darkblue;
+}

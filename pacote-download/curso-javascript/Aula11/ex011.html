@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Nacionalidade</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font: normal 18pt arial;
+        text-align: center;
+        line-height: 80px;
+        background-color: rgba(87, 255, 199, 0.404);
+      }
+      input {
+        font: 15pt arial;
+      }
+      div {
+        margin: auto;
+        width: 400px;
+        line-height: 200px;
+        height: 200px;
+        background-color: rgb(226, 147, 43);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Nacionalidade</h1>
+    <p>País de Origem: <input type="text" name="txtPais" id="txtPais" /></p>
+    <input type="button" value="Enviar" onclick="clicar()" />
+    <div id="res"></div>
+    <script>
+      function clicar() {
+        var res = document.getElementById("res");
+        var txtPais = document.getElementById("txtPais");
+        var pais = txtPais.value;
+        if (pais == "BRA" || pais == "Brasil") {
+          res.innerHTML = `Você é Brasileiro!`;
+        } else {
+          res.innerHTML = `Você é um Estrangeiro!`;
+        }
+      }
+    </script>
+  </body>
+</html>

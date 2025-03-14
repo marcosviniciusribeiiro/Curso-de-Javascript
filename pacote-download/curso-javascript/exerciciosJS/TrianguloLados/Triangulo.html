@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Triângulo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Lados de um Triangulo</h1>
+    </header>
+    <section>
+      <div>
+        <p>
+          1º lado:
+          <input
+            type="number"
+            min="1"
+            max="10"
+            name="Lado 1 do triângulo"
+            id="L1"
+          />
+        </p>
+        <p>
+          2º lado:
+          <input
+            type="number"
+            min="1"
+            max="10"
+            name="Lado 2 do triângulo"
+            id="L2"
+          />
+        </p>
+        <p>
+          3º lado:
+          <input
+            type="number"
+            min="1"
+            max="10"
+            name="Lado 3 do triângulo"
+            id="L3"
+          />
+        </p>
+        <p>
+          <input
+            type="button"
+            value="Definir Triangulo"
+            name="botão"
+            id="botão"
+            onclick="Calcular()"
+          />
+        </p>
+      </div>
+      <div id="res"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

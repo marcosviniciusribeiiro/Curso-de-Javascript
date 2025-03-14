@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>innerText - innerHTML</title>
+    <style>
+      body {
+        font: normal 17pt arial;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Diferença entre innerText e innerHTML:</h1>
+    <p class="teste_1">Teste 1</p>
+    <p id="teste_2">Teste 2</p>
+    <script>
+      var v1 = window.document.querySelector(".teste_1");
+      v1.innerText = "Teste do <strong>.innerText</strong>"; // texto
+      var v2 = window.document.querySelector("#teste_2");
+      v2.innerHTML = "Teste do <strong>.innerHTML</strong>"; //testo + formatação
+    </script>
+  </body>
+</html>

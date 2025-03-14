@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Ex 1: Contagem</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <meta name="author" content="Marcos Vinicius" />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Vamos Contar!</h1>
+    </header>
+    <section>
+      <div>
+        <p>
+          Contador:
+          <input
+            type="number"
+            name="num"
+            id="numero"
+            placeholder="Digite aqui"
+            min="1"
+          />
+        </p>
+        <p>
+          <input
+            type="button"
+            value="Vamos contar..."
+            name="butão"
+            id="btcontar"
+            onclick="contar()"
+          />
+        </p>
+      </div>
+      <div>
+        <p id="res"></p>
+      </div>
+    </section>
+    <footer>
+      <p>&copy;MarcosVRG</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- 
+### Como Funciona o Código
+- **HTML:** Cria a estrutura da página, incluindo um campo de entrada para o número e um botão para iniciar a contagem.
+- **JavaScript:**
+  - A função `contar()` é chamada quando o botão é pressionado.
+  - O código obtém o valor inserido pelo usuário e verifica se é um número válido maior que **0**.
+  - Se o número for válido, ele cria uma lista não ordenada (`<ul>`), adicionando cada número de **1 a N** como um item de lista (`<li>`).
+  - A lista é então exibida na página.
+
+### Teste a Contagem
+Você pode copiar e colar esse código em um arquivo HTML e abri-lo em um navegador para ver a contagem em ação! Se precisar de mais informações ou ajustes, é só avisar! Estou aqui para ajudar! 😊-->

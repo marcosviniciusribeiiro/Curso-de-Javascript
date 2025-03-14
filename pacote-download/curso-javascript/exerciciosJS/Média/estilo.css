@@ -1,0 +1,33 @@
+header {
+  margin: 50px;
+}
+body {
+  text-align: center;
+  background-color: aqua;
+  color: white;
+  font: normal 15pt arial;
+  transition: background-color 1000ms ease-in-out;
+}
+section {
+  color: black;
+  background-color: white;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  width: 500px;
+  border-radius: 10px;
+  padding: 25px;
+}
+input {
+  text-align: center;
+}
+#res {
+  margin: 20px;
+  line-height: 30px;
+}
+#botão {
+  font-size: 15px;
+  padding: 8px;
+}
+footer {
+  font-style: italic;
+}

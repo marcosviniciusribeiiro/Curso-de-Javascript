@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Média</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Verifique a sua Nota!</h1>
+    </header>
+    <section>
+      <div>
+        <p>Aluno: <input type="text" name="nome" id="nome" /></p>
+        <p>
+          Nota na 1ª prova:
+          <input type="number" min="1" max="10" name="nota1" id="n1" />
+        </p>
+        <p>
+          Nota na 2ª prova:
+          <input type="number" min="1" max="10" name="nota2" id="n2" />
+        </p>
+        <input
+          type="button"
+          value="Calcular Média"
+          id="botão"
+          onclick="Calcular()"
+        />
+      </div>
+      <div id="res"></div>
+    </section>
+    <footer>
+      <p>&copy;MarcosVRG</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

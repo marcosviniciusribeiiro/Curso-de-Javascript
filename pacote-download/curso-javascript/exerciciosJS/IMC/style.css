@@ -1,0 +1,27 @@
+header {
+  margin: 50px;
+}
+body {
+  text-align: center;
+  font: normal 15pt arial;
+  margin: 10px;
+  color: white;
+  background-color: greenyellow;
+  transition: background-color 1000ms ease-in-out;
+}
+section {
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  color: black;
+  padding: 25px;
+  margin: auto;
+}
+#botão {
+  font: normal 12pt arial;
+  padding: 8px;
+  width: 150px;
+}
+#res {
+  margin: 30px;
+}
